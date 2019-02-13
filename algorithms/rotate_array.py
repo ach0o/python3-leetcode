@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/rotate-array/
 
 
-from types import List
+from typing import List
 
 
 class Solution:

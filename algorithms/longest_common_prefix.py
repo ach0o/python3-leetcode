@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/longest-common-prefix/
 
 
-from types import List
+from typing import List
 
 
 class Solution:
