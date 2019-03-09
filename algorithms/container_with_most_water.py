@@ -12,10 +12,11 @@ class Solution:
         while lp != rp:
             wid = rp - lp
 
-            # Keep the pointer with higher value and 
+            # Keep the pointer with higher value and
             # move the other pointer towards the center.
             if height[lp] > height[rp]:
-                max_vol = max(wid * height[rp], max_vol)  # Save the max volume.
+                # Save the max volume.
+                max_vol = max(wid * height[rp], max_vol)
                 rp -= 1
             else:
                 max_vol = max(wid * height[lp], max_vol)
